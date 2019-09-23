@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+	<title></title>
 </head>
 <body>
 <button onclick="sas()">Click</button>
@@ -9,10 +9,8 @@
 </body>
 </html>
 <script type="text/javascript">
-  function sas(){
-      var fruits = ["Banana", "Orange", "Apple", "Mango"];
-      fruits.unshift("Lemon");
-      document.getElementById("demo").innerHTML =fruits;
-  }
-
+	function sas(){
+		var d = new Date();
+		document.getElementById('demo').innerHTML= d.getHours();
+	}
 </script>
